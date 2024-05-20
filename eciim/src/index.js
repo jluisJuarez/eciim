@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './Header';
+import './CSS/style.css'; 
+import Header from './Components/header';
+import Portada from './Components/portada';
+import Info from './Components/info';
+import Footer from './Components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Header />
+    <Portada />
 
-
+    <Info />
+    <Footer />
   </>
 );
 
