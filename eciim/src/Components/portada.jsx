@@ -3,9 +3,11 @@ import React from "react";
 function Portada() {
     return (
         <>
-        <section className="portada">
-            <h1>Portada</h1>  
-        </section>
+<section>
+<img class="img-carrusel" src="/img/portada_eciim.jpg" alt="" />
+	
+</section>
+
       
         </>
     ) 
